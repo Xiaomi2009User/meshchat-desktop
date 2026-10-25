@@ -2,7 +2,7 @@ const { app, BrowserWindow, shell, dialog } = require("electron");
 const { autoUpdater } = require("electron-updater");
 
 // Адреса сайту MeshChat. Після деплою замініть на свою.
-const SITE_URL = process.env.MESHCHAT_URL || "https://meshchat.example.com";
+const SITE_URL = process.env.MESHCHAT_URL || "https://meshchatik.xiaomi2009user.workers.dev";
 const SITE_ORIGIN = new URL(SITE_URL).origin;
 
 let win;
